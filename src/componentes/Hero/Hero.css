@@ -1,0 +1,115 @@
+.section{
+    display: grid;
+    position: sticky;
+    top: 0;
+    grid-template-columns: auto auto auto;
+    width: 99.3vw;
+    height: 100vh;
+    align-content: center;
+    /* justify-content: space-between; */
+    background: url(../../assets//hero.jpg);
+    background-position: center;
+    background-size: cover;
+    contain: content;
+}
+
+
+
+.inno{
+    height: 100%;
+    width: 30vw;
+    margin-top: 55vh;
+    margin-left: 40%;
+}
+
+.rigth{
+    display: grid;
+    text-align: right;
+    align-self: center;
+}
+
+.rigth h2{
+    font-size: 3em;
+}
+
+.rigth h1{
+    font-size: 8em;
+}
+
+.rigth .arrow{
+    margin-top: 5%;
+    background: rgba(140, 140, 140, 0.385);
+    justify-self: right;
+}
+
+.rigth ul img{
+    margin-left: 5%;
+}
+
+@media (width < 800px){
+    .inno{
+        width: 18vw;
+    }
+
+    .rigth{
+        margin: 0;
+    }
+
+    .rigth h2{
+        font-size: 4em;
+    }
+    
+    .rigth h1{
+        font-size: 8em;
+    }
+}
+
+@media (width < 1080px){
+    .section{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        padding: none;
+    }
+
+    .inno{
+        display: none;
+    }
+
+    .rigth{
+        width: 100%;
+        grid-row: 2;
+        padding-left: 13%;
+    }
+
+    .rigth h2{
+        font-size: 3em;
+        justify-self: right;
+
+    }
+    
+    .rigth h1{
+        font-size: 6em;
+    }
+
+    .rigth .arrow{
+        margin-top: 5%;
+        margin-right: 9%;
+        background: rgba(140, 140, 140, 0.385);
+        justify-self: right;
+    }
+    
+    .ul {
+        display: flex;
+        gap: 1em;
+        justify-self: right;
+    }
+
+    .ul a img{
+        width: 6em;
+        height: 5em;
+    }
+
+    .menu{
+        display: none;
+    }
+}

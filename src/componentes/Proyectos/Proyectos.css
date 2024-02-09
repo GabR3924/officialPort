@@ -1,0 +1,50 @@
+.proyectos {
+    width: 99.3vw;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    contain: content;
+    background: #171717;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 1%; /* Espaciado entre las tarjetas */
+    padding: 1%;
+}
+
+.card {
+    display: flex; /* Utiliza el modelo de caja flexible */
+    flex-direction: column; /* Apila los elementos en columna */
+    justify-content: flex-end; /* Coloca el contenido en la parte inferior */
+    width: 100%; /* Utiliza el 100% del ancho del contenedor padre */
+    max-width: 55rem; /* Establece un ancho máximo para cada tarjeta */
+    height: 50vh;
+    background-size: cover;
+    padding: 3%;
+}
+
+@media (max-width: 1000px) {
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    }
+
+    .card {
+
+        height: 45vh;
+        max-width: none; /* Elimina el ancho máximo para ocupar todo el ancho */
+    }
+}
+
+
+@media (max-width: 700px) {
+    .cards {
+        border: 2px solid white;
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+    }
+
+    .card {
+        height: 37vh;
+        max-width: none; /* Elimina el ancho máximo para ocupar todo el ancho */
+    }
+}

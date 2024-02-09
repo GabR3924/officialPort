@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  contain: content;
+  font-family: 'Sarpanch', sans-serif;
+
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* Ancho del scrollbar */
+}
+
+/* Barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: #002c0b; /* Color de la barra de desplazamiento */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background-color: #383838; /* Color de fondo de la barra de desplazamiento */
+}

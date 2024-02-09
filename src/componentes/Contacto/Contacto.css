@@ -1,0 +1,52 @@
+.contacto{
+    display: grid;
+    
+    grid-template-columns: auto auto auto;
+    width: 99.3vw;
+    height: 100vh;
+    align-content: center;
+    background-image: linear-gradient(rgba(23, 23, 23, 0.753), rgba(0, 0, 0, 0.372)), url(../../assets//nn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    contain: content;
+}
+
+.center{
+    display: grid;
+    text-align: left;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.center .icon{
+    cursor: pointer;
+}
+.center ul img{
+    height: 2.5em;
+}
+
+.center ul li{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em;
+    font-size: 1.2em;
+}
+
+
+.copy-message {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .center:hover .copy-message {
+    opacity: 1;
+  }
