@@ -1,6 +1,6 @@
 import GithubIcon from '../assets/GitHub.svg'
 import Gmail from '../assets/Gmail.svg'
-import Linkedin from '../assets/linkedin.svg'
+// import Linkedin from '../assets/linkedin.svg'
 import Group1 from '../assets/Group1.svg'
 import Arrow from '../assets/Group1.svg'
 import Account from '../assets/Account.svg'
@@ -11,7 +11,7 @@ import Hero from '../assets/innova.png'
 import About from '../assets/SOBREMI.png'
 import Proyectos from '../assets/PROYECTOS.png'
 import Java from '../assets/Java.svg'
-import Javascript from '../assets/javascript.svg'
+// import Javascript from '../assets/javascript.svg'
 import Node from '../assets/Node.svg'
 import Html from '../assets/Html.svg'
 import Css from '../assets/Group.svg'
@@ -36,7 +36,7 @@ export const Bio = {
     icons: {
       github:GithubIcon,
       gmail:Gmail,
-      linkedin:Linkedin,
+      // linkedin:Linkedin,
       group:Group1,
       arrow:Arrow,
     },
@@ -62,7 +62,7 @@ export const Bio = {
 export const skills = {
   svg : {
     java:Java,
-    javascript:Javascript,
+    // javascript:Javascript,
     html:Html,
     css:Css,
     react:React,
