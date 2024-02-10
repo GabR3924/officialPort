@@ -293,6 +293,10 @@ border: 1px solid white;
     padding: 3%;
   }
 
+  .sks .uno h2{
+    font-size: 3em;
+  }
+
   
 .cuadro {
   background: black;
@@ -330,12 +334,12 @@ border: 1px solid white;
   }
 
   .one h1{
-    font-size: 8em;
+    font-size: 6em;
   }
 
   .one h2{
-    font-size: 5em;
-    width: 38vw;
+    font-size: 4em;
+    width: 70%
   }
 
   .about .second{
@@ -350,7 +354,7 @@ border: 1px solid white;
   }
 
   .second p{
-    font-size: 2em;
+    font-size: 1.5em;
 
   }
 
