@@ -247,22 +247,42 @@ border: 1px solid white;
   }
 
   .project{
-    
+    width: 95vw;
   }
 
   .project h2{
-    font-size: 4em;
+    font-size: 3em;
   }
 
   .project .softGrid{
+    gap: .3em;
+    width: 100%;
     font-size: 2em;
     grid-template-columns: repeat(2, auto);
   }
 
-  .project li{
-    gap: .5em;
+  .softGrid ul li{
+    gap: .1em;
+    padding: 2%;
+    border-radius: 5px;
+    width: 5em;
+    height: 1.9em;
+    font-size: 1em;
   }
 
+  .softGrid ul li h4{
+    font-size: .5em;
+  }
+
+  .softGrid ul li  img{
+    border-radius: 5px;
+    width: 1.7em;
+    height: 1.7em;
+  }
+
+  .softGrid li{
+    gap: .5em;
+  }
 
   .sks {
     grid-row: 4;
@@ -281,8 +301,8 @@ border: 1px solid white;
 }
 
 .cuadro img {
-  width: 9em;
-  height: 9em;
+  width: 4em;
+  height: 4em;
 }
 
   .uno h2{
