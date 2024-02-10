@@ -46,22 +46,35 @@
     margin-left: 5%;
 }
 
-@media (width < 800px){
-    .inno{
-        width: 18vw;
+@media (width < 600px){
+    .section{
+        grid-template-columns: auto ;
+        text-align: center;
+
+        
     }
 
     .rigth{
-        margin: 0;
+        margin-right: 5%;
+        text-align: center;
     }
 
-    .rigth h2{
-        font-size: 4em;
+    .rigth .name{
+        justify-self: center;
+        font-size: 1.5em;
     }
     
-    .rigth h1{
-        font-size: 8em;
+    .rigth .roles{
+        font-size: 4em;
     }
+
+    .ul{
+        justify-self: center;
+        padding: 0;
+        margin-right: 7%;
+    }
+
+
 }
 
 @media (width < 1080px){

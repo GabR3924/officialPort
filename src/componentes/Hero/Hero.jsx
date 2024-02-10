@@ -36,7 +36,7 @@ const Hero = () => {
           x: -40,
           color: "#fff",
         }}
-        >
+        className="roles">
           {Bio.roles}
         </motion.h1>
         <motion.ul
