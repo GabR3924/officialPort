@@ -214,7 +214,6 @@ border: 1px solid white;
   }
   .cont {
     width: 100%;
-    border: 2px solid rgb(143, 28, 28);
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
   }
