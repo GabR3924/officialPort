@@ -55,6 +55,7 @@
     }
 
     .rigth{
+        gap: 2em;
         margin-right: 5%;
         text-align: center;
     }
