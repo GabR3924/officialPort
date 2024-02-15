@@ -1,26 +1,24 @@
 
 .Skills{
-    width: 100vw;
+    height: auto;
     display: grid;
-    contain: content;
     justify-items: right;
-    grid-template-columns: minmax(100px, 1fr)  ;
-    padding-bottom: 2em;
+    grid-template-rows: auto auto ;
+    gap: 3em;
     /* background: linear-gradient(rgb(8, 18, 21)50%, rgb(23, 23, 23)); */
     background: #171717;
   }
 
-.Skills .title {
-    height:100% ;
+.title{
+  grid-row: 1;
 }
+
 .cont {
+  grid-row: 2;
     display: grid;
-    height: 70%;
-    border: 2px solid white;
     grid-template-columns: minmax(100px, 1.3fr) 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr; 
+    grid-template-rows: auto 1fr ; 
     color: white;
-    width: 98 vw;
     font-family: 'Blinker', sans-serif;
  }
 
@@ -33,7 +31,7 @@
     padding: 1%;
   }
 
-  .Skills .cont h3{
+ .cont h3{
   font-size: 4vw;
   grid-column: 1/2;
   color: white;
