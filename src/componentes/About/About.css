@@ -1,7 +1,6 @@
 
 .Skills{
     width: 100vw;
-    height: 100vh;
     display: grid;
     contain: content;
     justify-items: right;
@@ -12,10 +11,12 @@
   }
 
 .Skills .title {
-    height:90% ;
+    height:100% ;
 }
 .cont {
     display: grid;
+    height: 70%;
+    border: 2px solid white;
     grid-template-columns: minmax(100px, 1.3fr) 1fr 1fr 1fr;
     grid-template-rows: auto 1fr 1fr; 
     color: white;
