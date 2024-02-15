@@ -6,14 +6,13 @@
     contain: content;
     justify-items: right;
     grid-template-columns: minmax(100px, 1fr)  ;
-    gap: 1em;
     padding-bottom: 2em;
     /* background: linear-gradient(rgb(8, 18, 21)50%, rgb(23, 23, 23)); */
     background: #171717;
   }
 
-.Skills .title h1{
-    font-size:5em ;
+.Skills .title {
+    height:90% ;
 }
 .cont {
     display: grid;
